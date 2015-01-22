@@ -11,7 +11,7 @@ public class INITSTKFRMinstr extends OneOperandInstruction {
       TJ.data[ASP++ - POINTERTAG] = FP;
       FP = ASP -1;
       ASP = ASP +  this.operand;
-     /* ???????? */
+
   }
 
   public INITSTKFRMinstr (int locationsNeededForLocalVars)
